@@ -1,0 +1,16 @@
+{
+  "posts": [
+    {
+      "id": 5,
+      "title": "Axios (Edited)",
+      "datetime": "August 12, 2023 1:51:47 AM",
+      "body": "Axios is the better way to fetch api and perform CRUD operations."
+    },
+    {
+      "id": 6,
+      "title": "New one like",
+      "datetime": "August 12, 2023 2:11:40 AM",
+      "body": "Now this blog has been edited by the developer. This is a completely new post on the blog."
+    }
+  ]
+}

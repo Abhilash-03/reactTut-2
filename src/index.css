@@ -153,8 +153,14 @@ article button{
     background: red;
     cursor: pointer;
     transition: transform .1s ease-out;
+    margin: 10px;
 }
 
+article .edit{
+  background-color: darkblue;
+  color: white;
+  
+}
 article button:focus{
   transform: scale(.9) translate(1px);
   box-shadow: 0 0 0 0;
@@ -220,4 +226,24 @@ article button:focus{
 
 .about p{
   margin: 1rem;
+}
+
+.missing{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.missing .error{
+  color: blue;
+  font-size: 40px;
+}
+.missing h2{
+  margin: 10px;
+}
+
+.link{
+  text-decoration: underline;
+  color: blue;
+  font-size: 15px;
 }
